@@ -33,10 +33,31 @@ pip install langchain-groq==0.1.3 --progress-bar off
 
 You need to get your **Groq API Key** and **RapidAPI Key**.
 
+You need to get your Groq API Key and RapidAPI Key.  
 Store the keys in your environment variables using:
 
 ```bash
 export GROQ_API_KEY="your_groq_api_key"
 export RAPIDAPI_KEY="your_rapidapi_key"
 ```
+### API Call
+
+The agent fetches blood glucose data from `human.p.rapidapi.com`. The API accepts a date parameter to return the corresponding glucose level.
+
+## Usage
+
+Once you have the setup ready, you can run the AI health agent. The agent will:
+
+- Retrieve blood glucose data for a specified date.
+- Analyze the data and provide health advice based on the glucose level.
+
+### Example Query
+
+You can input queries like:
+
+- "What is my blood glucose level today?"
+
+## Customization
+
+You can modify the roles and backstories of the agents or adjust the tasks for more personalized use cases. For instance, you can add tasks to provide additional health insights or track more health metrics.
 
