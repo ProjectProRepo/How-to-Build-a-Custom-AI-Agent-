@@ -31,15 +31,13 @@ pip install langchain-groq==0.1.3 --progress-bar off
 
 ### API Keys:
 
-You need to get your **Groq API Key** and **RapidAPI Key**.
-
-You need to get your Groq API Key and RapidAPI Key.  
-Store the keys in your environment variables using:
-
+You need to get your **Groq API Key** and **RapidAPI Key**.  You may store the keys in your environment variables using:
 ```bash
 export GROQ_API_KEY="your_groq_api_key"
 export RAPIDAPI_KEY="your_rapidapi_key"
 ```
+Alternatively, you may clone the repo and replace the keys in the code.
+
 ### API Call
 
 The agent fetches blood glucose data from `human.p.rapidapi.com`. The API accepts a date parameter to return the corresponding glucose level.
