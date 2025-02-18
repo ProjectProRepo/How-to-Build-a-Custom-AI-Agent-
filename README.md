@@ -59,3 +59,5 @@ You can input queries like:
 
 You can modify the roles and backstories of the agents or adjust the tasks for more personalized use cases. For instance, you can add tasks to provide additional health insights or track more health metrics.
 
+## Read The Full Blog
+For a detailed explanation of the code, visit [How to Build a Custom AI Agent – ProjectPro](https://www.projectpro.io/article/how-to-build-a-custom-ai-agent/1096)
